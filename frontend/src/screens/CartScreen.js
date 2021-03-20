@@ -89,7 +89,7 @@ function CartScreen({ match, location, history }) {
           <ListGroup variant="flush">
             <ListGroup.Item>
               <h2>
-                SubTotal ({cartItems.reduce((acc, item) => acc + item.qty, 0)})
+                Sub Total ({cartItems.reduce((acc, item) => acc + item.qty, 0)})
                 itmes
               </h2>
               $ &nbsp;
